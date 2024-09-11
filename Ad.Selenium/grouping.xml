@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="regressionTest"></include>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="campaign.CreateCampaignTest"/>
+      <class name="campaign.CreateCampaingWithProductTest"/>
+      <class name="contacts.CreateContactTest"/>
+      <class name="organization.RegressionTest"/>
+      <class name="product.CreateAndDeleteTest"/>
+      <class name="product.CreateProductTest"/>
+      <class name="organization.CreateOrganisationTest"/>
+      <class name="campaign.CreateAndDeleteTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
